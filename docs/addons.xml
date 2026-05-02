@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.ypoulis"
+       name="YPoulis Kodi Repository"
+       version="1.0.0"
+       provider-name="ypoulis">
+  <extension point="xbmc.addon.repository" name="YPoulis Repository">
+    <dir>
+      <info compressed="false">https://ypoulis-hub.github.io/kodi-repo/addons.xml</info>
+      <checksum>https://ypoulis-hub.github.io/kodi-repo/addons.xml.md5</checksum>
+      <datadir zip="true">https://ypoulis-hub.github.io/kodi-repo/zips/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Kodi repository for the YPoulis add-ons</summary>
+    <description lang="en_GB">Install this repository once and Kodi will automatically pick up updates for YouTube Music for Kodi and MotoGP VideoPass for Kodi. No more manual ZIP installs.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+<addon id="plugin.audio.ytmusic"
+       name="YTMusic"
+       version="1.0.8"
+       provider-name="ypoul">
+  <requires>
+    <import addon="xbmc.python" version="3.0.1"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup"/>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">YouTube Music player for Premium subscribers</summary>
+    <description lang="en_GB">Browse and play your YouTube Music library, playlists, liked songs, and more using your YouTube Music Premium account.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+<addon id="plugin.video.motogp"
+       name="MotoGP VideoPass"
+       version="0.2.0"
+       provider-name="ypoul">
+  <requires>
+    <import addon="xbmc.python" version="3.0.1"/>
+    <import addon="inputstream.adaptive" version="21.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">MotoGP VideoPass player for subscribers</summary>
+    <description lang="en_GB">Browse and play MotoGP, Moto2, and Moto3 races, qualifying, and practice sessions from your VideoPass subscription. Multiple camera feeds including commentary, ambient, helicopter, and onboard cameras. Up to 1080p@50fps.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+</addons>
