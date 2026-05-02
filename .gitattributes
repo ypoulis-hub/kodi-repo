@@ -1,0 +1,4 @@
+# Repository index files MUST be served byte-for-byte the same as
+# their MD5 was computed from. Force LF endings on push.
+docs/addons.xml text eol=lf
+docs/addons.xml.md5 text eol=lf
