@@ -60,9 +60,13 @@ def main() -> None:
         f'{body}\n'
         '</addons>\n'
     )
-    INDEX.write_text(xml, encoding='utf-8', newline='\n')
-    md5 = hashlib.md5(xml.encode('utf-8')).hexdigest()
-    MD5_FILE.write_text(md5 + '\n', encoding='utf-8', newline='\n')
+    # Normalise to LF so the MD5 we compute matches the bytes that
+    # GitHub Pages will serve.
+    xml = xml.replace('\r\n', '\n').replace('\r', '\n')
+    payload = xml.encode('utf-8')
+    INDEX.write_bytes(payload)
+    md5 = hashlib.md5(payload).hexdigest()
+    MD5_FILE.write_bytes((md5 + '\n').encode('utf-8'))
     print(f'\naddons.xml: {len(xml)} bytes, {len(addons)} addons')
     print(f'md5: {md5}')
 
