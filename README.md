@@ -6,7 +6,7 @@
 [![Kodi](https://img.shields.io/badge/Kodi-21%20Omega-blue)](https://kodi.tv/)
 [![Pages](https://img.shields.io/badge/site-ypoulis--hub.github.io%2Fkodi--repo-green)](https://ypoulis-hub.github.io/kodi-repo/)
 
-This repository serves [YouTube Music for Kodi](https://github.com/ypoulis-hub/kodi-youtube-music) and [MotoGP VideoPass for Kodi](https://github.com/ypoulis-hub/kodi-motogp-videopass) as a proper Kodi repository so you don't have to download and re-install the ZIPs each time there is an update.
+This repository serves [YouTube Music for Kodi](https://github.com/ypoulis-hub/kodi-youtube-music), [MotoGP VideoPass for Kodi](https://github.com/ypoulis-hub/kodi-motogp-videopass) and [Cinobo for Kodi](https://github.com/ypoulis-hub/kodi-cinobo) as a proper Kodi repository so you don't have to download and re-install the ZIPs each time there is an update.
 
 [![Donate with PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?business=ypoulis%40gmail.com&currency_code=EUR)
 
@@ -29,7 +29,7 @@ This repository serves [YouTube Music for Kodi](https://github.com/ypoulis-hub/k
 | **`repository.ypoulis`** — this repository | 1.0.0 |
 | **`plugin.audio.ytmusic`** — [YouTube Music for Kodi](https://github.com/ypoulis-hub/kodi-youtube-music) | 1.0.10 |
 | **`plugin.video.motogp`** — [MotoGP VideoPass for Kodi](https://github.com/ypoulis-hub/kodi-motogp-videopass) | 0.2.0 |
-| **`plugin.video.cinobo`** — Cinobo for Kodi | 0.1.1 |
+| **`plugin.video.cinobo`** — [Cinobo for Kodi](https://github.com/ypoulis-hub/kodi-cinobo) | 0.1.1 |
 
 The repository index (`addons.xml`) and add-on ZIPs are served via GitHub Pages from the [`docs/`](docs/) folder.
 
