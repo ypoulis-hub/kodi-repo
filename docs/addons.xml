@@ -23,6 +23,29 @@
     </assets>
   </extension>
 </addon>
+<addon id="plugin.video.cinobo"
+       name="Cinobo"
+       version="0.1.0"
+       provider-name="ypoul">
+  <requires>
+    <import addon="xbmc.python" version="3.0.1"/>
+    <import addon="inputstream.adaptive" version="21.0.0"/>
+    <import addon="script.module.requests" version="2.22.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Cinobo player for subscribers</summary>
+    <description lang="en_GB">Browse and play films from your Cinobo subscription. Catalogue, categories, search, watchlist and continue watching, with Greek and English subtitles.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
 <addon id="plugin.video.motogp"
        name="MotoGP VideoPass"
        version="0.2.0"
