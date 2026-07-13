@@ -8,7 +8,7 @@
 
 This repository serves [YouTube Music for Kodi](https://github.com/ypoulis-hub/kodi-youtube-music), [MotoGP VideoPass for Kodi](https://github.com/ypoulis-hub/kodi-motogp-videopass) and [Cinobo for Kodi](https://github.com/ypoulis-hub/kodi-cinobo) as a proper Kodi repository so you don't have to download and re-install the ZIPs each time there is an update.
 
-[![Donate with PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?business=ypoulis%40gmail.com&currency_code=EUR)
+[![Donate with PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://paypal.me/ypoulis)
 
 ---
 
