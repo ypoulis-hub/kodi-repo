@@ -48,7 +48,7 @@
 </addon>
 <addon id="plugin.video.motogp"
        name="MotoGP VideoPass"
-       version="0.3.0"
+       version="0.3.1"
        provider-name="ypoul">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
