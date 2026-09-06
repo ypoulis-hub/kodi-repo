@@ -29,7 +29,7 @@ This repository serves [YouTube Music for Kodi](https://github.com/ypoulis-hub/k
 | **`repository.ypoulis`** — this repository | 1.0.0 |
 | **`plugin.audio.ytmusic`** — [YouTube Music for Kodi](https://github.com/ypoulis-hub/kodi-youtube-music) | 1.0.11 |
 | **`plugin.video.motogp`** — [MotoGP VideoPass for Kodi](https://github.com/ypoulis-hub/kodi-motogp-videopass) | 0.3.1 |
-| **`plugin.video.cinobo`** — [Cinobo for Kodi](https://github.com/ypoulis-hub/kodi-cinobo) | 0.1.1 |
+| **`plugin.video.cinobo`** — [Cinobo for Kodi](https://github.com/ypoulis-hub/kodi-cinobo) | 0.1.2 |
 
 The repository index (`addons.xml`) and add-on ZIPs are served via GitHub Pages from the [`docs/`](docs/) folder.
 

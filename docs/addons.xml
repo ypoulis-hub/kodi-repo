@@ -25,11 +25,12 @@
 </addon>
 <addon id="plugin.video.cinobo"
        name="Cinobo"
-       version="0.1.1"
+       version="0.1.2"
        provider-name="ypoul">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
     <import addon="inputstream.adaptive" version="21.0.0"/>
+    <import addon="script.module.inputstreamhelper" version="0.5.0"/>
     <import addon="script.module.requests" version="2.22.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
